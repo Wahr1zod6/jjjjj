@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .counter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
+  input[type="number"] {
+    width: 60px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    margin: 0 10px;
+    background-color: #222;
+    color: white;
+  }
+  
+  .color-selection {
+    margin-top: 20px;
+  }
+  
+  #colorPicker {
+    margin-left: 10px;
+  }
+  
